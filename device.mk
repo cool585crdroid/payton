@@ -17,6 +17,9 @@
 # Vendor blobs
 $(call inherit-product-if-exists, vendor/motorola/payton/payton-vendor.mk)
 
+# Dex-pre-opt exclusions
+$(call add-product-dex-preopt-module-config,MotoSignatureApp,disable)
+
 # Properties
 -include $(LOCAL_PATH)/properties.mk
 
