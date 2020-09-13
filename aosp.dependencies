@@ -18,9 +18,9 @@
     "branch":      "ten"
   },
   {
-    "remote":      "github",
-    "repository":  "trpsl/packages_apps_GoogleCamera",
-    "target_path": "packages/apps/GoogleCamera",
-    "branch":      "ten"
+    "remote"      : "pixel-devices-blobs"
+    "repository"  : "packages_apps_MotCamera2",
+    "target_path" : "packages/apps/MotCamera2",
+    "branch"      : "ten-denali",
   }
 ]
