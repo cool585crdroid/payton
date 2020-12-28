@@ -25,10 +25,6 @@ TARGET_OTA_ASSERT_DEVICE := payton
 # Display
 TARGET_SCREEN_DENSITY := 420
 
-# FM
-BOARD_HAVE_QCOM_FM := true
-BOARD_HAS_QCA_FM_SOC := "cherokee"
-
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_payton_defconfig
 TARGET_PREBUILT_RECOVERY_RAMDISK_CPIO := $(DEVICE_PATH)/twrp/ramdisk-recovery.cpio
