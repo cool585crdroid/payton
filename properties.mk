@@ -17,10 +17,16 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.eis.enable=1 \
     persist.vendor.camera.ois.disable=1
 
-# Camera
+# Fluence
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.vendor.camera.eis.enable=1 \
-    persist.vendor.camera.ois.disable=1
+    persist.vendor.audio.dualmic.config=endfire \
+    persist.vendor.audio.fluence.audiorec=false \
+    persist.vendor.audio.fluence.speaker=true \
+    persist.vendor.audio.fluence.voicecall=true \
+    persist.vendor.audio.fluence.voicecomm=true \
+    persist.vendor.audio.fluence.voicerec=false \
+    ro.qc.sdk.audio.fluencetype=none \
+    ro.vendor.audio.sdk.fluencetype=none
 
 # FM
 PRODUCT_PROPERTY_OVERRIDES += \
