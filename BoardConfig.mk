@@ -44,4 +44,4 @@ TARGET_HAS_NO_WLAN_STATS := true
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # inherit from the proprietary version
--include vendor/motorola/payton/BoardConfigVendor.mk
+include vendor/motorola/payton/BoardConfigVendor.mk
