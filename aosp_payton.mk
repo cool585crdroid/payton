@@ -24,6 +24,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
 
 # Device
 $(call inherit-product, device/motorola/payton/device.mk)
